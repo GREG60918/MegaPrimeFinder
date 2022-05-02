@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaPrimeFinder", "MegaPrimeFinder\MegaPrimeFinder.csproj", "{24606E1A-8FF4-4FD5-8D26-5D2D780E9601}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FBA7C4C9-9E2F-40AF-A1ED-FA98823B297D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaPrimeFinderTests", "Tests\MegaPrimeFinderTests\MegaPrimeFinderTests.csproj", "{0832D0C2-6CB8-469D-B690-95305DEEC074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24606E1A-8FF4-4FD5-8D26-5D2D780E9601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24606E1A-8FF4-4FD5-8D26-5D2D780E9601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24606E1A-8FF4-4FD5-8D26-5D2D780E9601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24606E1A-8FF4-4FD5-8D26-5D2D780E9601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0832D0C2-6CB8-469D-B690-95305DEEC074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0832D0C2-6CB8-469D-B690-95305DEEC074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0832D0C2-6CB8-469D-B690-95305DEEC074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0832D0C2-6CB8-469D-B690-95305DEEC074}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0832D0C2-6CB8-469D-B690-95305DEEC074} = {FBA7C4C9-9E2F-40AF-A1ED-FA98823B297D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF3D25B4-953D-4EB2-A780-A2F0698A6D9A}
+	EndGlobalSection
+EndGlobal
